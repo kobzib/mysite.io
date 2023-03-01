@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.top_container {
+    border-bottom: 10px solid;
+    border-color: #10A19D;
+    background-image: url("../images/IMG_2683.JPG");
+    background-size: cover;
+    height: 700px;
+    margin: 0px;
+}
+
+#title1 {
+    margin: auto;
+    text-align: center;
+    font-size: 5.625rem;
+    padding-top: 100px;
+    color: white;
+
+}
+
+#title2 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: #85CDFD;
+    padding: 0;
+    margin: 0;
+    border-bottom: 10px solid;
+    border-color: #113CFC;
+}
+
+#flex1 {
+    flex: 1;
+}
+
+#flex2 {
+    flex: 4;
+    padding-top: 5%;
+}
+
+.profile-pic {
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
+    width: auto;
+    max-height: 350px;
+    border-radius: 25px;
+    border: 8px solid;
+    border-color: white;
+
+}
+
+h2 {
+    display: block;
+    margin: 0px 0px 10px 10px;
+    padding-top: 10px;
+    color: white;
+    font-size: 3em;
+    text-align: left;
+   
+}
+
+h3 {
+    color: white;
+    font-size: 2em;
+}
+
+p {
+    display: inline-block;
+    background-color: rgb(255,255,255,0.25);
+    margin: 10px 10px;
+    width: auto;
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+.skills {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    background-color: #4D77FF;
+    border-bottom: 10px solid;
+    border-color: #332FD0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-me {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    background-color: #6D67E4;
+    text-align: center;
+    padding-bottom: 20px;
+}
+a {
+    color: #332FD0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+.btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: -moz-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: -ms-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: -o-linear-gradient(top, #ffffff, #c4c4c4);
+    background-image: linear-gradient(to bottom, #ffffff, #c4c4c4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: B983FF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
